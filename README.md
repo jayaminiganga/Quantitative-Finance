@@ -26,7 +26,9 @@ Uses antithetic variates for variance reduction
 ### Repository Structure
 
 ├── main.m                         # Main execution script
+
 ├── calibrationSettings.m          # Parameter bounds & optimization settings
+
 ├── pricingError.m                 # Calibration loss function
 ├── CallPricingFFT.m               # FFT-based option pricing
 ├── priceDownInAsianAvgStrikeCall.m # Monte Carlo pricing for exotic option
