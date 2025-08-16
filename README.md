@@ -18,7 +18,7 @@ This project implements a Heston stochastic volatility model calibration and exo
 - Uses **antithetic variates** for variance reduction
 
 
-### Repository Structure
+### 📂 Repository Structure
 
 ├── main.m                         # Main execution script
 
@@ -38,45 +38,39 @@ This project implements a Heston stochastic volatility model calibration and exo
 
 └── README.md                      # This documentation
 
-### Requirements
+### 📌 Requirements
 
-MATLAB (R2020a or newer)
+- MATLAB (R2020a or newer)
+- Financial Toolbox (for blsimpv function)
+- Statistics and Machine Learning Toolbox
 
-Financial Toolbox (for blsimpv function)
-
-Statistics and Machine Learning Toolbox
-
-### How to Run
+### ▶️ How to Run
 
 1. Clone the repository:
    git clone https://github.com/jayaminiganga/Quantitative-Finance.git
 
 2. Open MATLAB and navigate to the project directory
-   Run the main script:
+3. Run the main script:
    run main.m
 
-   The workflow executes:
+   🔄 Workflow
 
-      Loads market volatility data (empVolatilitySurfaceData.mat)
-
-      Calibrates Heston parameters to market surface
-
-      Computes standard errors for parameter estimates
-
-      Prices exotic option using calibrated parameters
-
-      Displays calibration results and option price
+      - Loads market volatility data (empVolatilitySurfaceData.mat)
+      - Calibrates Heston parameters to market surface
+      - Computes standard errors for parameter estimates
+      - Prices exotic option using calibrated parameters
+      - Displays calibration results and option price
 
 
-### Key Features
+### ✨ Key Features
 
-Robust calibration with parameter constraints
+- Robust calibration with parameter constraints
 
-Hessian-based uncertainty quantification
+- Hessian-based uncertainty quantification
 
-Antithetic variates for Monte Carlo variance reduction
+- Antithetic variates for Monte Carlo variance reduction
 
-Barrier condition tracking during path simulation
+- Barrier condition tracking during path simulation
 
-Visual comparison of model vs market volatility surfaces
+- Visual comparison of model vs market volatility surfaces
 
