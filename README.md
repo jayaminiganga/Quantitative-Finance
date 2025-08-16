@@ -30,11 +30,17 @@ Uses antithetic variates for variance reduction
 ├── calibrationSettings.m          # Parameter bounds & optimization settings
 
 ├── pricingError.m                 # Calibration loss function
+
 ├── CallPricingFFT.m               # FFT-based option pricing
+
 ├── priceDownInAsianAvgStrikeCall.m # Monte Carlo pricing for exotic option
+
 ├── CharacteristicFunctionLib.m    # Characteristic functions for models
+
 ├── hessianest.m                   # Hessian matrix estimator
+
 ├── empVolatilitySurfaceData.mat   # Market implied volatility data
+
 └── README.md                      # This documentation
 
 ### Requirements
