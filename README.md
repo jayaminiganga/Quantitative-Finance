@@ -1,6 +1,8 @@
 # Quantitative-Finance
 MATLAB scripts for quantitative finance analysis
 
+# Heston Model Calibration & Exotic Option Pricing
+
 ### Project Overview
 
 This project implements a Heston stochastic volatility model calibration and exotic option pricing workflow. It includes:
@@ -44,7 +46,7 @@ Statistics and Machine Learning Toolbox
 ### How to Run
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/heston-calibration-exotic-pricing.git
+   git clone https://github.com/jayaminiganga/Quantitative-Finance.git
 
 2. Open MATLAB and navigate to the project directory
    Run the main script:
